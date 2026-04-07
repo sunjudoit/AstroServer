@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "AstroServer";
+
+package astro;
+
+service AstroService {
+  rpc StarVelocity (StarVelocityRequest) returns (AstroReply);
+  rpc StarDistance (StarDistanceRequest) returns (AstroReply);
+  rpc CelsiusToKelvin (CelsiusRequest) returns (AstroReply);
+  rpc BlackholeEventHorizon (BlackholeRequest) returns (AstroReply);
+}
+
