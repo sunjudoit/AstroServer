@@ -5,9 +5,29 @@ option csharp_namespace = "AstroServer";
 package astro;
 
 service AstroService {
-  rpc StarVelocity (StarVelocityRequest) returns (AstroReply);
-  rpc StarDistance (StarDistanceRequest) returns (AstroReply);
-  rpc CelsiusToKelvin (CelsiusRequest) returns (AstroReply);
-  rpc BlackholeEventHorizon (BlackholeRequest) returns (AstroReply);
+	rpc StarVelocity (StarVelocityRequest) returns (AstroReply);
+	rpc StarDistance (StarDistanceRequest) returns (AstroReply);
+	rpc CelsiusToKelvin (CelsiusRequest) returns (AstroReply);
+	rpc BlackholeEventHorizon (BlackholeRequest) returns (AstroReply);
 }
 
+message StarVelocityRequest{
+	double observedWavelength = 1;
+	double restWavelength = 2;
+}
+
+message StarDistanceRequest {
+	double parallaxAngle = 1;
+}
+
+message CelsiusRequest  {
+	double celsius = 1;
+}
+
+message BlackholeRequest  {
+	double mass = 1;
+}
+
+message AstroReply {
+    double result = 1;
+}

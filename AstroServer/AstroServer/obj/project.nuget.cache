@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qkPE1MWT7GQ=",
+  "dgSpecHash": "4HFCI6NZg3Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\P305532\\Documents\\GitHub\\Malin-Space-Science-Systems\\AstroServer\\AstroServer\\AstroServer.csproj",
+  "projectFilePath": "C:\\Users\\P305532\\Documents\\GitHub\\AstroServer\\AstroServer\\AstroServer\\AstroServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P305532\\.nuget\\packages\\google.protobuf\\3.34.1\\google.protobuf.3.34.1.nupkg.sha512",
     "C:\\Users\\P305532\\.nuget\\packages\\grpc.aspnetcore\\2.76.0\\grpc.aspnetcore.2.76.0.nupkg.sha512",

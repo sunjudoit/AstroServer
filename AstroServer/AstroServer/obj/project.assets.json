@@ -1163,11 +1163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P305532\\Documents\\GitHub\\Malin-Space-Science-Systems\\AstroServer\\AstroServer\\AstroServer.csproj",
+      "projectUniqueName": "C:\\Users\\P305532\\Documents\\GitHub\\AstroServer\\AstroServer\\AstroServer\\AstroServer.csproj",
       "projectName": "AstroServer",
-      "projectPath": "C:\\Users\\P305532\\Documents\\GitHub\\Malin-Space-Science-Systems\\AstroServer\\AstroServer\\AstroServer.csproj",
+      "projectPath": "C:\\Users\\P305532\\Documents\\GitHub\\AstroServer\\AstroServer\\AstroServer\\AstroServer.csproj",
       "packagesPath": "C:\\Users\\P305532\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P305532\\Documents\\GitHub\\Malin-Space-Science-Systems\\AstroServer\\AstroServer\\obj\\",
+      "outputPath": "C:\\Users\\P305532\\Documents\\GitHub\\AstroServer\\AstroServer\\AstroServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
