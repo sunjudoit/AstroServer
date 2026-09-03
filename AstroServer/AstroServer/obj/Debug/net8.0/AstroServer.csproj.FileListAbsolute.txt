@@ -1,0 +1,7 @@
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.csproj.AssemblyReference.cache
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.AssemblyInfoInputs.cache
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.AssemblyInfo.cs
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.csproj.CoreCompileInputs.cache
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.MvcApplicationPartsAssemblyInfo.cache
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.sourcelink.json

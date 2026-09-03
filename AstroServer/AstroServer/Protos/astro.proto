@@ -1,17 +1,19 @@
-﻿syntax = "proto3";
+syntax = "proto3";
 
 option csharp_namespace = "AstroServer";
 
 package astro;
 
+// Service definition
 service AstroService {
-	rpc StarVelocity (StarVelocityRequest) returns (AstroReply);
-	rpc StarDistance (StarDistanceRequest) returns (AstroReply);
-	rpc CelsiusToKelvin (CelsiusRequest) returns (AstroReply);
-	rpc BlackholeEventHorizon (BlackholeRequest) returns (AstroReply);
+  rpc StarVelocity (StarVelocityRequest) returns (AstroReply);
+  rpc StarDistance (StarDistanceRequest) returns (AstroReply);
+  rpc CelsiusToKelvin (TemperatureRequest) returns (AstroReply);
+  rpc BlackholeEventHorizon (BlackholeRequest) returns (AstroReply);
 }
 
-message StarVelocityRequest{
+// Request messages
+message StarVelocityRequest {
 	double observedWavelength = 1;
 	double restWavelength = 2;
 }
@@ -20,14 +22,16 @@ message StarDistanceRequest {
 	double parallaxAngle = 1;
 }
 
-message CelsiusRequest  {
+message TemperatureRequest {
 	double celsius = 1;
 }
 
-message BlackholeRequest  {
+message BlackholeRequest {  
 	double mass = 1;
 }
 
+// Common response
 message AstroReply {
-    double result = 1;
+	double result = 1;
+	string message = 2;
 }
