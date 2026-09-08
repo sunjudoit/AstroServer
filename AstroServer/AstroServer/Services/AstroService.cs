@@ -3,7 +3,7 @@ using Grpc.Core;
 
 namespace AstroServer.Services
 {
-    public class AstroService : Greeter.GreeterBase
+    public class AstroService : AstroServer.AstroService.AstroServiceBase
     {
         private readonly ILogger<AstroService> _logger;
         public AstroService(ILogger<AstroService> logger)
@@ -11,12 +11,6 @@ namespace AstroServer.Services
             _logger = logger;
         }
 
-        public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
-        {
-            return Task.FromResult(new HelloReply
-            {
-                Message = "Hello " + request.Name
-            });
-        }
+       
     }
 }

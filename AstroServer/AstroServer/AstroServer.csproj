@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\astro.proto" GrpcServices="Server" />
+	  <Protobuf Include="Protos\IAstroContract.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>
