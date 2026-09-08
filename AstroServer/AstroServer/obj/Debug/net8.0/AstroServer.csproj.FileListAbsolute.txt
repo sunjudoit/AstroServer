@@ -31,3 +31,5 @@ D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debu
 D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.pdb
 D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\AstroServer.genruntimeconfig.cache
 D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\obj\Debug\net8.0\ref\AstroServer.dll
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\bin\Debug\net8.0\AstroMath.dll
+D:\TAFE\Programming Diploma2\Github\AstroServer\AstroServer\AstroServer\bin\Debug\net8.0\AstroMath.pdb

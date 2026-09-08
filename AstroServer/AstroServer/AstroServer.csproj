@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <Reference Include="AstroMath">
-      <HintPath>..\..\AstroMath\AstroMath\bin\Debug\AstroMath.dll</HintPath>
+		<HintPath>..\..\..\AstroMath\AstroMath\AstroMath\bin\Debug\AstroMath.dll</HintPath>
     </Reference>
   </ItemGroup>
 
