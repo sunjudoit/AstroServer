@@ -4,12 +4,12 @@ using AstroMath;
 
 namespace AstroServer.Services
 {
-    public class AstroService : AstroServer.AstroService.AstroServiceBase
+    public class AstroServer : global::AstroServer.AstroService.AstroServiceBase
     {
         AstroCalculations calculations = new AstroCalculations();
 
-        private readonly ILogger<AstroService> _logger;
-        public AstroService(ILogger<AstroService> logger)
+        private readonly ILogger<AstroServer> _logger;
+        public AstroServer(ILogger<AstroServer> logger)
         {
 
             double testResult = calculations.StarDistance(0.5);

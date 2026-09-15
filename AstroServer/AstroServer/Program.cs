@@ -1,5 +1,3 @@
-using AstroMath;
-using AstroServer.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +9,6 @@ var app = builder.Build();
 
 
 //  Map the gRPC service
-app.MapGrpcService<AstroService>();
+app.MapGrpcService<AstroServer.Services.AstroServer>();
 
 app.Run();
